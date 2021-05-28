@@ -15,13 +15,15 @@ public class MrCoxallStack {
   */
   public void push(int pushNumber) {
     stackAsArray.add(pushNumber);
-    System.out.print("\nComplete!");
   }
   
   /**
   * The showStack method outputs the ArrayList.
   */
   public final void showStack() {
-    
+    System.out.print("\nStack: ");
+    for (int count = 0; count < stackAsArray.size(); count++) {
+      System.out.print(stackAsArray.get(count) + ", ");
+    }
   }
 }

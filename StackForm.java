@@ -19,5 +19,6 @@ public class StackForm {
     int anumber = input.nextInt();
     
     astack.push(anumber);
+    astack.showStack();
   }
 }
