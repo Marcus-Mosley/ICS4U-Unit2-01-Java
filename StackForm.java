@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /**
-* This class creates an integer stack.
+* This class uses the MrCoxallStack.
 *
 * @author  Marcus A. Mosley
 * @version 1.0
